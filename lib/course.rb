@@ -3,7 +3,8 @@ class Course
 
   @@all = []
   
-  def initialize
+  def initialize(title)
+    @title = tile
     @@all << self 
   end
   
