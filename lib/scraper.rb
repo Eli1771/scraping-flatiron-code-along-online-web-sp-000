@@ -16,7 +16,7 @@ class Scraper
     end
   end
   def get_page
-    
+    "Nokogiri"
   end 
   def get_courses
     
