@@ -20,6 +20,7 @@ class Scraper
     Nokogiri::HTML(html)
   end 
   def get_courses
+    page = get_page
     
   end 
   def make_courses
