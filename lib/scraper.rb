@@ -21,10 +21,12 @@ class Scraper
   end 
   def get_courses
     page = get_page
-    page.css(".posts-holder h2")
+    page.css(".posts-holder h2").text
   end 
   def make_courses
-    
+    courses = get_courses
+    courses.each do |c|
+      
   end
 end
 
