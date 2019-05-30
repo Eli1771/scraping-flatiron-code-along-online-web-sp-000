@@ -4,7 +4,7 @@ class Course
   @@all = []
   
   def initialize(title)
-    @title = tile
+    @title = title
     @@all << self 
   end
   
