@@ -29,7 +29,7 @@ class Scraper
       course = Course.new 
       course.title = c.css("h2")
       course.schedule = c.css(".date")
-      course.
+      course.description = c.css("p")
     end 
   end
 end
